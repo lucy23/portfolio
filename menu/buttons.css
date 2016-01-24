@@ -1,0 +1,54 @@
+body {
+    background-color: #eee;
+    margin: 0;
+}
+.page-wrap {
+    background-color: #fff;
+    margin: 0 auto;
+    width: 100%;
+    padding:300px;
+
+
+}
+
+
+
+.estilo-button{
+	background-color: #DCEAF1;
+	margin: 10px;
+	padding: 10px;
+	border:1px solid #DCEAF1;
+	border-radius: 3px;
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	box-shadow: grey 0px 3px 5px;
+	
+
+}	
+
+
+input {
+	
+	
+	}
+
+a{
+	
+	text-decoration: none;
+	
+}
+
+
+span{
+	background-color: #00C1FF;
+	padding: 8px;
+	margin: 3px;
+	
+
+
+
+}
+
+
+

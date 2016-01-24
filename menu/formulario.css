@@ -1,0 +1,68 @@
+
+
+.formulario{
+	background:#00C1FF;
+	border: 1px dotted black;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	
+	color: black;
+	padding:80px;
+	width: 87%;
+	padding-top: 150px;
+	
+	text-align: center;
+
+}
+header{
+	margin-bottom: 100px;
+	position: fixed;
+
+}
+
+input{
+background:#DCEAF1;
+margin: 10px;
+border:1px solid black;
+
+}
+
+textarea{
+	background:#DCEAF1;
+	border:1px solid #DCEAF1;
+	border-radius: 3px;
+	margin: 10px;
+	
+	
+
+}
+.estilo-button{
+	background-color: #DCEAF1;
+	margin: 10px;
+	padding: 10px;
+	border:1px solid #DCEAF1;
+	border-radius: 3px;
+	color: black;
+	font-family:'Bree Serif', serif;
+	font-size: 20px;
+	box-shadow: grey 0px 3px 5px;
+
+
+}
+
+input{
+	background-color: #DCEAF1;
+	margin: 10px;
+	padding: 10px;
+	border:1px solid #DCEAF1;
+	border-radius: 3px;
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	
+
+}
+
+#telefono{
+	float:right;
+}

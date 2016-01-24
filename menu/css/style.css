@@ -3,40 +3,26 @@
 .titulo {
 	background-size: 60px;
 	color: black;
+	font-size: 30px;
 }
 .tipos {
 	font-family: 'Bree Serif', serif;
+	font-size: 30px;
 
 }
 
 
-nav{
+.page-wrap{
+	background-color: #DCEAF1;
+	margin:20px;
 	
-	display: block;
-	background-color: pink;
-
-	
-}
-nav ul{
-	list-style: none;
-	font-size: 16px;
-	margin-right: 10px;
+	border:1px dotted black;
+	padding: 30px;
 
 }
+#heading{
 
-nav ul li{
-	float:right;
-	font-family: Helvetica; 
-	font-size: 20px;
-	margin-right: 10px;
 	text-align: center;
-}
-
-nav ul li a{
-	color:black;
-	display:block;
-	padding: 10px;
-	text-decoration: none;
 }
 
 h1 {
@@ -64,15 +50,24 @@ h5 {
 }
 
 h6 {
-	font-size: 20px;
+	font-size: 17px;
 	font-family: 'Bree Serif', serif;
 }
 
+p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
+}
 
 
 section{
 	font-family: 'Raleway', sans-serif;
 	font-size: 17px;
+	border:1px dashed #21409A;
+	margin: 20px;
+	padding: 40px;
+
+
 	
 }
 dt{

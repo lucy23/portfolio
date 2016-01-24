@@ -1,0 +1,53 @@
+.titulo{
+	width:200px;
+	color: blue;
+	margin: 40px;
+	font-family: 'Kaushan Script', cursive;
+
+	
+}
+
+header{
+	width: 99%;
+	position: fixed;
+	z-index: 20;
+	background-color:#BCFFFF ; opacity: 0.7;
+	display: block,
+
+}
+nav{
+	
+	display: block;
+	margin-right: 20px;
+}
+
+
+nav ul{
+	list-style: none;
+	font-size: 16px;
+	margin-right: 10px;
+	z-index: 2;
+
+}
+
+nav ul li{
+	float:right;
+	font-family: 'Bree Serif', serif;
+	font-size: 25px;
+	margin-right: 10px;
+	text-align: center;
+}
+
+nav ul li a{
+	color:black;
+	display:block;
+	padding: 10px;
+	text-decoration: none;
+	width: 100%;
+	margin-top: -53px;
+	margin-right: 10px;
+}
+
+img{
+	width: 100%;
+}
