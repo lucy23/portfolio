@@ -6,7 +6,17 @@
 
 	
 }
+body{
+	background-color: #EBFBFF;
+}
+a{
+	text-decoration: none;
 
+}
+a:visited{
+	color: inherit;
+
+}
 header{
 	width: 99%;
 	position: fixed;
@@ -48,6 +58,19 @@ nav ul li a{
 	margin-right: 10px;
 }
 
+
+
 img{
-	width: 100%;
+	width: 300px;
+	margin:200px;
+}
+
+
+p{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 70px;
+	float:right;
+	
+	margin-top: 500px;
+	margin-right: 400px;
 }
