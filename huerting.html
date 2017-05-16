@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+	<title>Lucy Sigler Portafolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+	<link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
+
+	<link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>
+		$(function() {
+
+			var btn_movil = $('#nav-mobile'),
+			menu = $('#menu').find('ul');
+
+	        // Al dar click agregar/quitar clases que permiten el despliegue del menú
+	        btn_movil.on('click', function (e) {
+	        	e.preventDefault();
+
+	        	var el = $(this);
+
+	        	el.toggleClass('nav-active');
+	        	menu.toggleClass('open-menu');
+	        })
+
+	    });
+	</script>
+
+</head>
+
+<body>
+	<!-- MENU-->
+	<div class="menu">
+		<a href="index.html"><img SRC="img/logo.png"></a>
+		<nav id="menuDesktop" ><a class="menuDesktop" id="nav_menuDesktop" href="#"></a>
+			<a href="sobremi.html">Sobre mi</a> /
+			<a href="portafolio.html">Portafolio</a> /
+			<a href="contacto.html">Contacto</a>
+		</nav> 
+		<nav id="menu"><a class="nav-mobile" id="nav-mobile" href="#"></a>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="sobremi.html">Sobre mi</a></li>
+				<li><a href="portafolio.html">Portafolio</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>           
+
+	</div>
+
+
+	<!-- pagina-->
+
+<div class="migadepan">
+<p id="breadcrumb">
+  <a href="index.html">Home</a>
+ <a href="portafolio.html">Portafolio</a>
+  <a href="huerting.html">Huerting</a>
+  
+ 
+	</ul></div>
+
+
+	<div class="contenedor_ficha">
+
+
+		<img src="img/huerting-01.png">
+		<img src="img/home_huerting.png">
+
+	<div class="texto_exp">	
+	<h1>Huerting</h1>
+	<p>
+		<p>Trabajo final de máster en diseño web.Proyecto donde diseñabamos de forma colaborativa una web desde cero con metodologías útiles.</p>
+		<p>Huerting es una plataforma que plantea conectar agricultores que no utilizan sus tierras, con personas de la ciudad que están interesadas en cultivar su propio huerto, ya sea como pasatiempo,ejercitarse, o simplemente para comer sano. Se brinda un servicio de intermediario entre los 2 usuarios, poniendo como garantía que el alquiler y los servicios del huerto van incluidos.</p>
+	</div>
+		
+		<img src="img/huerting_responsive.png">
+		<img src="img/huerting.png">
+		<img src="img/3formatos.png">
+
+		<br>
+		<p>Si quieres ver el proyecto funcionando pulsa sobre la siguiente imagen y se abrirá en tu navegador</p>
+		<a href="http://huerting.github.io/Huerting/index.html"><img src="img/Captura de pantalla 2016-05-25 a las 18.42.09.png"></a>
+	</div>
+
+
+<footer>
+	<div class="info_footer">
+			<p>Móvil: 627295627</p>
+			<p>Email: lucysigler23@gmail.com</p>
+			</div>
+</footer>
+</body>
+
+</html>

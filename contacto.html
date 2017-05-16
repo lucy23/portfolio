@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lucy Sigler- Style Guide</title>
+	<meta charset="UTF-8">
+
+	 <link href="css/main.css" type="style/css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+        $(function() {
+
+            var btn_movil = $('#nav-mobile'),
+                menu = $('#menu').find('ul');
+
+            // Al dar click agregar/quitar clases que permiten el despliegue del menú
+            btn_movil.on('click', function (e) {
+                e.preventDefault();
+
+                var el = $(this);
+
+                el.toggleClass('nav-active');
+                menu.toggleClass('open-menu');
+            })
+
+        });
+       
+    </script>
+    <script type="text/javascript">
+         function sendMail() {
+            var link = "mailto:lucysigler23@gmail.com"
+             + "?cc="
+             + "&subject= Tienes un mensaje de " + escape(document.getElementById('nombre').value)
+             + "&body= Email: "  + document.getElementById('email').value + "  Telefono : " 
+                                 + document.getElementById('telefono').value +" "
+                                 + escape(document.getElementById('mensaje').value);
+
+            window.location.href = link;
+};
+    </script>
+
+</head>
+
+
+	<body>
+
+    <!-- MENU-->
+    <div class="menu">
+           <a href="index.html"><img SRC="img/logo.png"></a>
+            <nav id="menuDesktop" ><a class="menuDesktop" id="nav_menuDesktop" href="#"></a>
+                <a href="sobremi.html">Sobre mi</a> /
+                <a href="portafolio.html">Portafolio</a> /
+                <a href="contacto.html">Contacto</a>
+            </nav> 
+             <nav id="menu"><a class="nav-mobile" id="nav-mobile" href="#"></a>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobremi.html">Sobre mi</a></li>
+        <li><a href="portafolio.html">Portafolio</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>           
+
+        </div>
+
+    <div class="contacto">
+
+	   <div class ="texto_contacto">
+		  <p>Si necesitas un nuevo sitio web o rediseñar cualquier tipo de nuevo diseño, o simplemente preguntar algo, no lo dudes y ponte en contacto conmigo a través del mail o escríbeme este formulario. </p>
+
+		  
+	   </div>
+
+
+		<div class="formulario">
+
+            <form action="sendMail()" method="post"" name="contacto" id ="contacto" >
+                 <label for="nombre">Nombre y apellidos</label>
+                <input name="h" value="submit" type="hidden"><br>
+
+             
+                <input id="nombre" name="nombre" size="60" type="text" required><br> Email:<br>
+                <input id ="email" name="email" size="60" type="email"  font-size: 18pt; required><br> Tu teléfono:<br>
+                <input id ="telefono" name="telefono" size="60" type="tel"><br> Tu Mensaje:<br>
+                <textarea id="mensaje" name="mensaje" rows="10" cols="58"></textarea><br>
+                <button onclick ="sendMail(); return false " >Enviar</button>   
+            </form>
+        </div>
+    </div>
+
+    	<footer>
+            <div class="info_footer">
+                <p>Móvil: 627295627</p>
+                <p>Email: lucysigler23@gmail.com</p>
+            </div>
+                
+            
+    	</footer>
+    </body>
+</html>
